@@ -1,8 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function
 ## makeCacheMatrix is supposed to create a special matrix object 
+## user inputs the parameters of a matrix
 ## use solve() function to compute the inverse of a square matrix
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -23,8 +21,6 @@ makeCacheMatrix <- function(x = matrix()) {
     list(set = set, get = get, setsolve = setsolve, getsolve = getsolve)
     
   }
-
-
 
 
 ## cacheSolve computes the inverse of the matrix returned by makeCacheMatrix
